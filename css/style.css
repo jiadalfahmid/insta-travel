@@ -8,19 +8,7 @@
   font-family: Mulish;
 }
 
-.brand-color{
-  color: #FF5400;
-}
-
-.white-color{
-  color: #ffffff;
-}
-
-.dark-color{
-  color: #131318;
-}
-
-.mob-hide{
+.sc-hide{
   display: none;
 }
 
@@ -43,22 +31,25 @@
   line-height: 120%;
 }
 
-.heading{ 
+.heading{
   font-size: 4rem;
   font-weight: 800;
-  line-height: 120%;  
+  line-height: 120%;
+  margin-bottom: 1.5rem;
 }
 
 .section-title{
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 120%;
+  margin-bottom: 1.5rem;
 }
 
 .column-title{
   font-size: 1.625rem;
   font-weight: 800;
   line-height: 120%;
+  margin-bottom: 1.5rem;
 }
 
 .para{
@@ -66,10 +57,35 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 120%;
+  margin-bottom: 1.5rem;
+}
+
+.brand-color{
+  color: #FF5400;
+}
+
+.white-color{
+  color: #ffffff;
+}
+
+.dark-color{
+  color: #131318;
+}
+
+.btn{
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 120%;
+  padding: 0.875rem 2rem;
+  background: #FF5400;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
 }
 
 /* global css ends */
-
+/* navbar starts */
 .navbar{
   align-items: center;
   justify-content: space-between;
@@ -92,4 +108,115 @@ nav li a{
 
 nav li .active{
   font-weight: 700;
+}
+/* navbar ends */
+/* banner starts */
+.banner{
+  padding: 7rem 10rem;
+  background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.43),rgba(19, 19, 24, 0) 100%), url('../images/banner.png');
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner form{
+  margin-top: 3rem;
+  border-radius: .5rem;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
+form input,
+form select,
+form .btn{
+  font-size: 1rem;
+  font-weight: 400;
+  width: 25%;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: none;
+}
+/* banner ends */
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+  .container{
+    width: 90%;
+  }
+
+  .logo{
+    font-size: 1.5rem;
+  }
+  
+  .heading{
+    font-size: 1.5rem;
+  }
+  
+  .section-title{
+    font-size: 1.25rem;
+  }
+  
+  .column-title{
+    font-size: 1.25rem;
+  }
+
+  .sc-hide{
+    display: block;
+  }
+
+  .mob-hide{
+  display: none;
+}
+/* global css for mobile device ends */
+
+  .navbar{
+    margin: 2rem auto;
+  }
+
+  .logo-container{
+    gap: .5rem;
+    align-items: center;
+  }
+
+
+  .logo-container img{
+    width: 15%;
+  }
+
+
+  .banner{
+    padding: 2rem 1rem;
+  }
+
+  .banner form{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form input,
+  form select,
+  form .btn{
+    width: 100%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
 }

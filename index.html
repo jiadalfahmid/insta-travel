@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
   <title>Insta Travel</title>
   <link rel="stylesheet" href="css/style.css">
@@ -14,21 +15,36 @@
         <img src="./images/logo.png" alt="">
         <div class="logo">Insta <span class="brand-color">Travel</span></div>
       </div>
-      <div class="nav-container">
+      <div class="nav-container ">
         <nav>
-          <ul class="display-flex">
+          <ul class="display-flex mob-hide">
             <li><a href="#"><span class="brand-color active">Home</span></a></li>
             <li><a href="#">Packages</a></li>
             <li><a href="#">Testimonial</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
+          <div class="short-nav sc-hide"><i class="fa-solid fa-bars"></i></div>
         </nav>
       </div>
     </div>
   </header>
   <section class="container">
-
+    <section class="banner">
+      <h1 class="heading align-center white-color">Explore Your Travel</h1>
+      <p class="para align-center white-color">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+      <form class="display-flex">
+        <input type="text" placeholder="Where go">
+        <select>
+          <option value="When">When</option>
+        </select>
+        <select>
+          <option value="When">Select Type</option>
+        </select>
+        <button class="btn"><i class="fa-regular fa-magnifying-glass"></i> Find now</button>
+      </form>
+    </section>
+    <!-- banner section ends -->
   </section>
   <footer></footer>
 </body>
