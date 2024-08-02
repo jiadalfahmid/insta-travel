@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
 }
 
 .sc-hide{
@@ -139,7 +139,21 @@ form .btn{
   border: none;
 }
 /* banner ends */
+/* popular section starts */
+.popular{
+  gap: 3.3125rem;
+  margin: 5rem auto;
+}
 
+.popular .popular-text-container{
+  width: 60%;
+}
+
+.popular .popular-image-container img{
+  width: 104%;
+  border-radius: 1rem;
+}
+/* popular section ends */
 
 
 
@@ -208,7 +222,20 @@ form .btn{
     width: 100%;
   }
   
+  .popular{
+    gap: 1.5rem;
+    flex-direction: column;
+    margin: 2rem auto;
+  }
 
+  .popular .popular-text-container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .popular .popular-image-container img{
+    width: 100%;
+  }
 
 
 
