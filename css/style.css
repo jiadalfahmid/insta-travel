@@ -189,10 +189,28 @@ form .btn{
   background: rgba(233, 68, 68, 0.05);
   border: 1px solid rgba(233, 68, 68, 0.2);
 }
-
-
 /* about-us section ends */
+/* video section starts */
+.video{
+  gap: 1.75rem;
+  margin: 5rem auto;
+}
 
+.video .video-text-container{
+  width: 56%;
+}
+
+.video-text-container ul li{
+  color: #131318;
+  font-weight: bold;
+}
+
+.video .video-container img{
+  margin-top: 2%;
+  width: 100%;
+  border-radius: 1rem;
+}
+/* video section ends */
 
 
 
@@ -260,13 +278,15 @@ form .btn{
     width: 100%;
   }
   
-  .popular{
+  .popular,
+  .video{
     gap: 1.5rem;
     flex-direction: column;
     margin: 2rem auto;
   }
 
-  .popular .popular-text-container{
+  .popular .popular-text-container,
+  .video .video-text-container{
     width: 90%;
     margin: 0 auto;
   }
@@ -274,8 +294,6 @@ form .btn{
   .icon-box{
     width: 100%;
   }
-
-
 
 
 
