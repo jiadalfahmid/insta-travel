@@ -18,6 +18,8 @@
 
 .align-center{
   text-align: center;
+  max-width: 33.75rem;
+  margin: 0 auto;
 }
 
 .container{
@@ -190,6 +192,61 @@ form .btn{
   border: 1px solid rgba(233, 68, 68, 0.2);
 }
 /* about-us section ends */
+/* packages section starts */
+.packages{
+  margin-top: 5rem;
+}
+.package-1{
+  background: url('../images/discount-1.png');
+  position: relative;
+}
+
+.package-1 .package-box-container{
+  position: absolute;
+  right: 3rem;
+}
+
+.package-2{
+  background: url('../images/discount-2.png');
+}
+
+.package{
+  margin-top: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  border-radius: 1rem;
+  height: 28.43rem;
+  margin-top: 2rem;
+}
+
+.package-box-container{
+  padding: 3rem;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+}
+
+.person,.place,.limit{
+  gap: .5rem;
+}
+
+.short-info{
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.price{
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: -.5rem 0 1rem;
+}
+
+.all-packages{
+  margin: 3rem auto 0;
+}
+/* packages section ends */
 /* video section starts */
 .video{
   gap: 1.75rem;
@@ -295,8 +352,35 @@ form .btn{
     width: 100%;
   }
 
+  .packages{
+    margin: 2rem auto;
+  }
 
+  .package{
+    padding: 2rem;
+    width: 100%;
+  }
 
+  .package-box-container{
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .short-info p{
+    margin: 0;
+  }
+
+  .package h3{
+    margin-top: 1.5rem;
+  }
+
+  .package-1 .package-box-container{
+    position: relative;
+    right: 0;
+  }
+
+  
 
 
 
