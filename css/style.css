@@ -268,7 +268,84 @@ form .btn{
   border-radius: 1rem;
 }
 /* video section ends */
+/* newsletter section starts */
+.newsletter{
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+.newsletter .form-container{
+  border: 1px solid #FF5400;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 40%;
+}
 
+.newsletter form{
+  flex-direction: column;
+  border-top: 2px solid #f3f3f3;
+}
+
+.form-container form input,
+.form-container form button{
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.form-container form input{
+  background: #f3f3f3;
+  color: #bababa;
+}
+
+.newsletter .newsletter-image-container{
+  position: relative;
+}
+
+.newsletter .newsletter-image-container img{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.newsletter-image-container .save{
+  border-radius: 1rem;
+  background: #FF5400;
+  padding: 1.5rem;
+  width: 50%;
+  position: absolute;
+  bottom: 16.3%;
+  right: .2%;
+  transform: rotate(-30deg);
+}
+
+.save .insta{
+  font-size: 1.25rem;
+}
+
+.save .up-to{
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* newsletter section ends */
+/* footer section starts */
+footer{
+  background: #f3f3f3;
+  padding: 5rem;
+}
+
+footer .logo-container{
+  justify-content: center;
+}
+
+footer .social{
+  gap: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #e9e9e9;
+}
+
+footer p{
+  margin-top: 1.5rem;
+}
+/* footer section ends */
 
 
 
@@ -302,7 +379,7 @@ form .btn{
 
   .mob-hide{
   display: none;
-}
+  }
 /* global css for mobile device ends */
 
   .navbar{
