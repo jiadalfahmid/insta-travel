@@ -18,7 +18,7 @@
 
 .align-center{
   text-align: center;
-  max-width: 33.75rem;
+  max-width: 37.3rem;
   margin: 0 auto;
 }
 
@@ -156,6 +156,39 @@ form .btn{
   border-radius: 1rem;
 }
 /* popular section ends */
+/* destination section starts */
+.destination{
+  margin-bottom: 5rem;
+}
+.destination .destination-row-container{
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.destination .destination-images-container{
+  gap: 1rem;
+}
+
+.destination .destination-images-container img{
+  width: 100%;
+  height: 100%;
+  filter: brightness(90%);
+}
+
+
+.destination .card{
+  position: relative;
+}
+
+.destination .card .place{
+  position: absolute;
+  top: 40%;
+  right: 37%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+/* destination section ends */
 /* about-us section starts */
 .about-us>p{
   max-width: 33.75rem;
@@ -340,6 +373,7 @@ footer .social{
   gap: 1rem;
   padding-bottom: 3rem;
   border-bottom: 2px solid #e9e9e9;
+  justify-content: center;
 }
 
 footer p{
@@ -429,6 +463,10 @@ footer p{
     width: 100%;
   }
 
+  .destination .destination-images-container {
+    flex-direction: column;
+}
+
   .packages{
     margin: 2rem auto;
   }
@@ -457,9 +495,27 @@ footer p{
     right: 0;
   }
 
+  .newsletter{
+    flex-direction: column;
+  }
+
+  .newsletter .form-container{
+    width: 100%;
+  }
+
+  .newsletter-image-container .save{
+    padding: 1rem;
+    position: absolute;
+    bottom: 17%;
+    right: .2%;
+  }
+
+  .save .insta{
+    font-size: 1rem;
+  }
   
-
-
-
+  .save .up-to{
+    font-size: 1.25rem;
+  }
 
 }
